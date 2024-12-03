@@ -1,8 +1,8 @@
 const processInput = (rawInput: string): number[][] =>
   rawInput
     .trim()
-    .split("\n")
-    .map((pair) => pair.split("   ").map(Number));
+    .split('\n')
+    .map((pair) => pair.split('   ').map(Number));
 
 const computeListFrequencies = (lists: number[][]): Map<number, number> => {
   const rightListFrequency = new Map<number, number>();
