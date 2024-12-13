@@ -30,7 +30,9 @@
     "day10": "tsx ./day10/run.ts",
     "day10:test": "vitest ./day10/day10.test.ts",
     "day11": "tsx ./day11/run.ts",
-    "day11:test": "vitest ./day11/day11.test.ts"
+    "day11:test": "vitest ./day11/day11.test.ts",
+    "day12": "tsx ./day12/run.ts",
+    "day12:test": "vitest ./day12/day12.test.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
